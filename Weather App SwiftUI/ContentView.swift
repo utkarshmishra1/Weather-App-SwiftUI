@@ -19,12 +19,15 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .padding(.bottom, 16)
                 
-                VStack {
+                VStack(spacing: 10) {
                     Image(systemName: "cloud.sun.fill")
                         .renderingMode(.original)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 180, height: 180)
+                    Text("76")
+                        .font(.system(size: 78, weight: .medium))
+                        .foregroundStyle(.white)
                 }
                 
                 Spacer() // upar moves krdega us stack k
