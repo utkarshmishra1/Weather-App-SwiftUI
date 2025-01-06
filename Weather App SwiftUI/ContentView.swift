@@ -41,7 +41,6 @@ struct ContentView: View {
                     WeatherDayView(dayOfWeek: "SAT", imageName: "cloud.sun.fill", temperature: 28)
                     WeatherDayView(dayOfWeek: "SUN", imageName: "cloud.sun.fill", temperature: 28)
                 }
-                
                 Spacer() // upar moves krdega us stack k
                 Button{
                     print("button Tapped")
