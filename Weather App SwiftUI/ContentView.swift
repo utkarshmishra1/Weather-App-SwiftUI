@@ -56,8 +56,7 @@ struct ContentView: View {
                      
             }
         }
-        
-        
+ 
 //        .padding() // sides se space krdega
         
     }
