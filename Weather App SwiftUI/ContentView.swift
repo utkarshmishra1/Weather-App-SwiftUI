@@ -28,7 +28,6 @@ struct ContentView: View {
                     Text("76")
                         .font(.system(size: 78, weight: .medium))
                         .foregroundStyle(.white)
-                    
                 }
 //                Spacer()
                 .padding(.bottom, 80)
